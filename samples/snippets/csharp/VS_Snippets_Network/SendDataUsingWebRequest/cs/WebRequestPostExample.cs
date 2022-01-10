@@ -10,7 +10,7 @@ namespace Examples.System.Net
         public static void Main()
         {
             // Create a request using a URL that can receive a post.
-            WebRequest request = WebRequest.Create("http://www.contoso.com/PostAccepter.aspx ");
+            WebRequest request = WebRequest.Create("http://www.contoso.com/PostAccepter.aspx");
             // Set the Method property of the request to POST.
             request.Method = "POST";
 
